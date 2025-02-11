@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color:aquamarine;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    text-align: center;
+    padding: 9%;
+    margin: 4%;
+
+}
+h6{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    text-wrap: nowrap;
+    margin: 10% 0;
+}
+.X-btn , .Y-btn{
+    width: 18vw;
+    height: 20vh;
+    border: 1px saddlebrown firebrick;
+    background-color: transparent;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+@media(max-width:700px) {
+    .container{
+       flex-direction: column;
+    }
+    .X-btn , .Y-btn{
+        width: 50%;
+    }
+}

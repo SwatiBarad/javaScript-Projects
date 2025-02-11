@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+
+}
+.search-bar-container{
+    display: flex;
+    position: relative;
+    /* border: 1px solid ; */
+    padding: 8px;
+    border-radius: 50px;
+    transition: width .5s;
+}
+.btn{
+    /* background-color: black;
+    color: white; */
+    border: none;
+    width: 5vw;
+    height: 8vh;
+    border-radius: 50px;
+    padding: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: width .5s;
+}
+input{
+    transition: width .5s;
+    border: none;
+    width: 28vw;
+    height: 8vh;
+    border-radius: 50px;
+    padding: 22px;
+    margin: 0 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+/* i.fa-solid.fa-microphone{
+    border: none;
+    width: 8vw;
+    height: 8vh;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    text-align: center;
+} */
+ .hide{
+    display: none;
+ }

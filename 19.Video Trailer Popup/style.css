@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 50%;
+
+}
+
+.main-container h1 {
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+
+.main-container p {
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+}
+
+.watch-btn {
+    width: 15vw;
+    height: 6vh;
+    padding: 8px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.watch-btn:hover {
+    background-color: orange;
+    transition: 0.4s;
+}
+@media (max-width:910px) {
+    .main-container {
+        max-width: 90%;
+    }
+    
+}
+
+.trailer-container {
+   
+    width: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trailer-container video{
+    width: 80%;
+    height: 100%;
+}
+.trailer-container  .icon{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    top: 0%;
+    right: 3%;
+    font-size: 1.4em;
+}
+.active{
+    display: none;
+}

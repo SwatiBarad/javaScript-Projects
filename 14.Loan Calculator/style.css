@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: capitalize;
+    /* text-align: center; */
+    
+}
+.loan-amount-calculator{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 1px solid ;
+    width: 25vw;
+    height: 50vh;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #b5c6e0;
+}
+h2{
+    font-size: 35px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    backdrop-filter: brightness(70%);
+    color: white;
+}
+label{
+    font-size: 16px;
+}
+input{
+    background-color: #ebf4f5;
+    border: none;
+    border-radius: 12px;
+    padding:2px 12px;
+    font-size: 16px;
+    height: 4vh;
+    /* margin-top: 1vh; */
+    /* margin-bottom: 3vh; */
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: 0;
+}

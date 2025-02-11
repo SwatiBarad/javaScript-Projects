@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -50px;
+    border: 3px solid gray;
+
+}
+.testimonial-container{
+    background-color:brown;
+    border-radius: 10px;
+    margin: 5%;
+    width: 45vw;
+    position: relative;
+    padding: 10px 20px;
+}
+.text{
+    position: relative;
+    margin: 50px 0 0 0;
+    font-family:monospace;
+    font-weight: 600;
+    color: white;
+}
+.user-name{
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}

@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   overflow: hidden;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: lightcoral;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    background: url(https://static.digit.in/default/apple-iphone-15-pro-max-1a178aef71.jpeg);
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    background-color: lightblue;
+    height: 100ch;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMoiz8o3nZkuCa2QeCV0DfLVAsDKHKrVuLdw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    letter-spacing: 4px;
+    font-size: 100px;
+    backdrop-filter: brightness(50%);
+    color: white;
+}
+.btn{
+    text-wrap: nowrap;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid ;
+    font-size: 35px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.active-left .left{
+    width: 75%;
+}
+.active-left .right{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+.active-right .left{
+    width: 25%;
+}
+.left ,.right{
+    transition: width 2s ease-in-out;
+}

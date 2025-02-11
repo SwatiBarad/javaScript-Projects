@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+    font-family: cursive;
+}
+
+.static-container {
+    border: 1px solid green;
+    width: 30vw;
+    height: 25vh;
+    margin: 9px;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+}
+
+.icon {
+    margin: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -20px;
+    font-size: 7vh;
+    /* color: green; */
+}
+.number{
+    margin: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 12vh;
+    color: green;
+}
+.text{
+    position: absolute ;
+    transform: translateX(-50%);
+    left: 50%;
+    margin: 0;
+    top: 100px;
+    /* color: green; */
+}

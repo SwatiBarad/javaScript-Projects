@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: url(Vologda\ sunset.jpeg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    letter-spacing: 2px;
+}
+.clock{
+    display: flex;
+    position: relative;
+}
+
+div{
+    margin: 9px;
+    text-align: center;
+    display: grid;
+}
+span{
+    font-size: 40px;
+    text-shadow: 0 4px 8px rgba(0,0,0,.3);
+    opacity: 0.6;
+    background-color: slateblue;
+}
+.text{
+    background-color: blueviolet;
+    opacity: 0.6;
+    color: white;
+    font-size: 12px;
+}
+.ampm{
+    position: absolute;
+    bottom: 0;
+    width: 3vw;
+    height: 3vh;
+    transform: translateY(-50%);
+    font-size: 16px;
+    background-color: green;
+}

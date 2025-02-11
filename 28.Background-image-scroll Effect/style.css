@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.top-container {
+    background-image: url("Programmer\ Code\ Wallpaper\ Backgrounds\ Free\ Download.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+    /* background-size: cover; */
+    width: 100%;
+    height: 100vh;
+
+}
+.bottom-container{
+ margin: 5% 7%;   
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+h2{
+    font-size: 2rem;
+    background-color: gray;
+    padding: 30px;
+}
+p{
+    font-size: 1.2rem;
+    
+}
